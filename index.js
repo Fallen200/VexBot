@@ -34,7 +34,7 @@ switch (args[0].toLowerCase()) {
         embed.setColor(0xFFD700);
         embed.setTitle("Commmands")
         embed.addField("New Commands", "There are no new commands.")
-        embed.addField("Commands", "Bots - List the bots and there status.\nVersions - Gives you the version of the bot\nHelp - List all the commands")
+        embed.addField("Commands", "Bots - List the bots and there status.\nVersions - Gives you the version of the bot\nCommunities -  List all of the bot communitys in our Discord that you can join\nProducts - List all of our products\Invite - Gives you a invite to our Discord\nHelp - List all the commands")
         embed.setFooter("Made by VexNoid | Fallen#9211");
     
             message.author.send(embed)
