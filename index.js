@@ -26,7 +26,7 @@ switch (args[0].toLowerCase()) {
     case "bots":
         var embed = new Discord.RichEmbed()
             .addField("Status", "✅ = Online    ❌ = Offline\n📶 = Not hosted    💻 = Developing")//✅  ❌  📶  💻
-            .addField("Bots", "**Fade** = 📶\n**VexNoid** = 💻")
+            .addField("Bots", "**Fade** = ✅\n**VexNoid** = ✅💻")
         message.channel.sendEmbed(embed);
         break;
      case "help":
